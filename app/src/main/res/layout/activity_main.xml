@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+
+        <EditText
+            android:id="@+id/EmailPhone"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email / Phone Number"
+            android:drawableLeft="@drawable/ic_mail_black"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:background="@drawable/border"
+
+            android:inputType="" />
+
+        <EditText
+            android:id="@+id/PassWord"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:drawableLeft="@drawable/ic_lock_"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:background="@drawable/border"
+
+
+            />
+
+        <Button
+            android:id="@+id/SignIn"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#c82b59"
+            android:textColor="#fff"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Here"
+            android:textAllCaps="false"
+            android:background="#c82b59"
+            android:layout_gravity="end"
+            android:textColor="#fff"
+            android:textSize="18dp"
+
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

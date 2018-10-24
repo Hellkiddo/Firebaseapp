@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "344620153695",
+    "firebase_url": "https://firstproject-816ea.firebaseio.com",
+    "project_id": "firstproject-816ea",
+    "storage_bucket": "firstproject-816ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344620153695:android:073efca55d65d0c1",
+        "android_client_info": {
+          "package_name": "com.example.user.shemulapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344620153695-7g31i9qn3sfaqloa5olojmsaog80o08t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1i9rdPAqq28TtzpLUaCKFucfosLgG2s8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
